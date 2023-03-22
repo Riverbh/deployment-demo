@@ -1,13 +1,14 @@
 * {
     font-family: sans-serif;
+    background-color: lightgray;
 }
 
 button {
     background-color: black;
     color: white;
     border: none;
-    border-right: 2px solid aqua;
-    border-bottom: 2px solid aqua;
+    border-right: 2px solid rgb(118, 64, 255);
+    border-bottom: 2px solid rgb(118, 64, 255);
     padding: 10px 20px;
     font-weight: bold;
 }
