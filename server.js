@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const path = require('path')
 
 const app = express()
 app.use(express.json())
@@ -27,7 +28,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/students', (req, res) => {
-
+    rollbar.info('The Students name werent sent')
     res.status(200).send(students)
 })
 
